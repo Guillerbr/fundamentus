@@ -16,6 +16,9 @@ https://github.com/AdilsonAngelo/fundamentus
 Use essa versão,já atualizada e preparada para o Heroku:
 https://github.com/carromeu/fundamentus
 
+Video ensinando o processo:
+https://www.youtube.com/watch?v=B8IrK2H9WkM&feature=youtu.be
+
 Entre no Heroku crie um novo app.
 
 Se conecte ao heroku,usando o CLI deles ou de outra forma descrita no site deles.
