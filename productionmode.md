@@ -11,6 +11,55 @@ https://github.com/felipemarkson/fundamentus
 
 https://github.com/AdilsonAngelo/fundamentus
 
+# Instalar em servidor da Heroku
+
+Use essa versão,já atualizada e preparada para o Heroku:
+https://github.com/carromeu/fundamentus
+
+Entre no Heroku crie um novo app.
+
+Se conecte ao heroku,usando o CLI deles ou de outra forma descrita no site deles.
+
+Vou usar o CLI deles.
+
+heroku login
+
+Inicie o git:
+
+git init
+
+Linkar o git ao seu repositório
+
+heroku git:remote -a NOME-DA-APLICAÇAO
+
+No meu caso:
+
+heroku git:remote -a meu-app-fundaments
+
+Agora adicione no Git:
+
+git add .
+
+Faça o primeiro commit:
+
+git commit -m "frist commit"
+
+Envie tudo e finalize o processo:
+
+git push heroku master
+
+Após esse processo se tudo estiver certo o Heroku irá começar a instalação e configuração do aplicativo:
+
+Se tudo der certo você terá um retorno confirmando o processo com sucesso
+e informando o link para acesso
+
+
+
+
+
+
+
+
 # Instalar em servidor ubuntu 18.4 na AWS
 
  apt install python3-pip
